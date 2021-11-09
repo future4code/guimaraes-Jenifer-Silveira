@@ -9,13 +9,16 @@ o console (a, b) vai retornar 10 5
 o console vai retornar 10 10 10
 */
 
-/*Resposta exercicio 3:
-let horasTrabalhadas = 8
-let valorRecebidoDiario =80
-vai retornar Voce recebe 10 por hora*/
+//Resposta exercicio 3:
+let horasTrabalhadas = Number(prompt("Digite as horas trabalhadas: "));
+let valorRecebidoDiario = Number(prompt("Digite o valor diário recebido"));
+
+console.log(valorRecebidoDiario/horasTrabalhadas);
+
+//vai retornar Voce recebe 10 por hora
 
 
-
+/*
 const nome = prompt("Qual o seu nome completo?");
 let idade = prompt("Qual a sua idade?");
 
@@ -49,3 +52,4 @@ let segundoValor=Number(prompt("Digite o segundo valor"));
 console.log(primeiroValor+segundoValor);
 console.log(primeiroValor*segundoValor);
 
+*/
