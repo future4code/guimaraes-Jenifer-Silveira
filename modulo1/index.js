@@ -10,10 +10,10 @@ o console vai retornar 10 10 10
 */
 
 //Resposta exercicio 3:
-let horasTrabalhadas = Number(prompt("Digite as horas trabalhadas: "));
-let valorRecebidoDiario = Number(prompt("Digite o valor diário recebido"));
+let horasTrabalhadas = prompt("Digite as horas trabalhadas: ");
+let valorRecebidoDiario = prompt("Digite o valor diário recebido");
 
-console.log(valorRecebidoDiario/horasTrabalhadas);
+alert(valorRecebidoDiario/horasTrabalhadas);
 
 //vai retornar Voce recebe 10 por hora
 
@@ -24,11 +24,11 @@ let idade = prompt("Qual a sua idade?");
 
 console.log(`Meu nome é ${nome} e eu tenho ${idade} anos`);
 console.log(typeof nome);
-console.log(typeof idade);
+console.log(typeof idade);*/
 
 //Ambas irão retornar a variavel string, pois a saida é no console, para alterar a variavel
 //teria que fazer uma conversão para Number()
-
+/*
 let roupaAzul = prompt("Você está de roupa azul?");
 let maiorIdade = prompt("Você é maior de idade?");
 let cabeloComprido = prompt("Você tem cabelo comprido");
