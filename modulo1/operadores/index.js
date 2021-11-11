@@ -69,16 +69,19 @@ console.log(`Sua idade é: ${age}, em meses é: ${ageMeses}, em dias é: ${ageDi
 */
 
 
-/*
 
+/*
 let numeroUm = Number(prompt("Insira o primeiro numero!"));
 let numeroDois = Number(prompt("Insira o segundo número"));
+let resto1 = numeroUm%numeroDois
+let resto2 = numeroDois%numeroUm
 
 console.log(`O primeiro numero é maior que o segundo? ${numeroUm>numeroDois}
 O primeiro numero é maior que o segundo? ${numeroUm===numeroDois}
-O primeiro numero é divisivel pelo segundo? ${numeroUm%numeroDois}
-O segundo numero é divisivel pelo primeiro? ${(numeroDois)%(numeroUm)}  `)
+O primeiro numero é divisivel pelo segundo? ${resto1===0}
+O segundo numero é divisivel pelo primeiro? ${resto2===0}  `)
 */
+
 
 /*
 let fahrenheit1 = 77;
@@ -119,5 +122,30 @@ console.log(` O valor total consumido é de: R$${valorTotal}
 e o valor com 15% de desconto fica R$${valorTotal-desconto}`)
 
 */
+
+/*
+let libras = 20
+console.log(`${libras}lbs equivalem a ${libras/2.205}kg`);
+
+let ounces = 10.5
+console.log(`${ounces}oz equivalem a ${ounces/35.274}kg`);
+
+let milhas = 100
+console.log(`${milhas}mi equivalem a ${milhas*1609}mt`);
+
+let feet = 50
+console.log(`${feet}ft equivalem a ${feet/3.281}mt`);
+
+let galao = 103.56
+console.log(`${galao}gal equivalem a ${galao*3.785}lt`);
+
+let xicara = 450
+console.log(`${xicara}xc equivalem a ${(xicara*6)/25}lt`);
+
+let valorConversao= Number(prompt("Insira o valor da unidade que queira converter!"));
+console.log(`${valorConversao}oz equivalem a ${valorConversao/35.274}kg`);
+*/
+
+
 
 
