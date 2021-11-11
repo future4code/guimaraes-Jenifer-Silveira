@@ -72,12 +72,12 @@ console.log(`Sua idade é: ${age}, em meses é: ${ageMeses}, em dias é: ${ageDi
 
 /*
 let numeroUm = Number(prompt("Insira o primeiro numero!"));
-let numeroDois = Number(prompt("Insira o segundo número"));
+let numeroDois = Number(prompt("Insira o segundo número!"));
 let resto1 = numeroUm%numeroDois
 let resto2 = numeroDois%numeroUm
 
 console.log(`O primeiro numero é maior que o segundo? ${numeroUm>numeroDois}
-O primeiro numero é maior que o segundo? ${numeroUm===numeroDois}
+O primeiro numero é igual o segundo? ${numeroUm===numeroDois}
 O primeiro numero é divisivel pelo segundo? ${resto1===0}
 O segundo numero é divisivel pelo primeiro? ${resto2===0}  `)
 */
