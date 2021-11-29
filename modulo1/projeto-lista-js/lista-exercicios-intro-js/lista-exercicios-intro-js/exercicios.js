@@ -22,7 +22,11 @@ function calculaAreaRetangulo() {
   const alturaRetangulo = Number(prompt("Digite a altura do retangulo!"));
   const larguraRetangulo = Number(prompt("Digite a largura do retangulo"));
 
+ projeto-lista-js
   console.log(alturaRetangulo * larguraRetangulo);
+ 
+  console.log(alturaRetangulo*larguraRetangulo);
+
 
 }
 
@@ -31,15 +35,23 @@ function imprimeIdade() {
   const anoAtual = Number(prompt("Digite o ano atual!"));
   const anoNascimento = Number(prompt("Digite seu ano de nascimento!"));
 
+
   console.log(anoAtual - anoNascimento);
+
+  console.log(anoAtual-anoNascimento);
 
 }
 
 // EXERCÍCIO 03
 function calculaIMC(peso, altura) {
 
+
   return (peso / (altura * altura));
 
+
+  return (peso / (altura*altura));
+  
+ 
 
 }
 
@@ -53,6 +65,7 @@ function imprimeInformacoesUsuario() {
 
 }
 
+/*
 
 // EXERCÍCIO 05
 //Escreva uma função que pergunta ao
@@ -67,59 +80,101 @@ function imprimeTresCoresFavoritas() {
 
 }
 
-
+*/
 
 
 // EXERCÍCIO 06
+/*
 function retornaStringEmMaiuscula(string) {
   const maiuscula = string.toUpperCase()
   return maiuscula
+=======
+*/
+
+// EXERCÍCIO 05
+function imprimeTresCoresFavoritas() {
+  const cor1 = prompt("Insira a primeira cor");
+  const cor2 = prompt("insira a segunda cor");
+  const cor3 = prompt("insira terceira cor");
+  const cores =[cor1,cor2,cor3];
+
+  console.log(cores);
+  
+
+
+}
+
+// EXERCÍCIO 06
+function retornaStringEmMaiuscula(string) {
+  
+
+  console.log(string.toUpperCase());
+
 
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+
   let qtdIngressos = custo / valorIngresso
 
   return qtdIngressos
+
+
+
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
+
   // implemente sua lógica aqui
   let primeiraString = string1.length
   let segundaString = string2.length
 
   return primeiraString === segundaString
 
+  
+
+
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
+
   return array[0]
+
+
+
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
+
   return array.pop()
+
 
 }
 
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
+
   return
+
+
 }
 
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
+
   let strings = string1.toUpperCase() === string2.toUpperCase()
 
   return strings
+
 }
 
 // EXERCÍCIO 13
@@ -147,6 +202,11 @@ function checaRenovacaoRG() {
 
 
 
+=======
+
+}
+
+
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
@@ -156,6 +216,7 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+
 
   let idade = prompt("Você tem mais de 18 anos?");
 
@@ -186,5 +247,3 @@ function checaValidadeInscricaoLabenu() {
     }else{
     console.log(false)
     }
-
-}
