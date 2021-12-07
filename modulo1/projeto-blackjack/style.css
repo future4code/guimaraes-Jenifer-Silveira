@@ -1,0 +1,34 @@
+BODY{
+    background-color: black;
+}
+
+.areaprincipal {
+    width: 70%;
+    background-color: black;
+    margin: 0 auto;
+    text-decoration:white;
+    
+}
+
+figure {
+    position: relative;
+    text-align: center;
+}
+
+figure:before,
+figure:after {
+    
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+img {
+    
+    width: 700px;
+    height: 400px;
+    
+    align-content: center;
+}
