@@ -24,6 +24,8 @@ function retornaArrayOrdenado(array) {
 
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
+    let novoArray = array.filter(pares => (pares%2) === 0);
+    return novoArray
 
 }
 
