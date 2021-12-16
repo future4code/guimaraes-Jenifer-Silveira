@@ -1,0 +1,16 @@
+/*
+Os sete passos fundamentais para a resolução de problemas são:
+1º Identificar o que está pedindo no enunciado, verificar o que
+o código deve fazer;
+2º Separar as palavras chaves que serão as variaveis, valores e os
+verbos que irão virar funções;
+3º Verificar como e quais dados serão recebidos e quais as possiveis
+respostas para o código. Criar os inputs e outputs;
+4º Criar um esquema visual antes de escrever o código, usar fluxogramas,
+texto em tópicos para entender a lógica do código.
+5º Colocar no papel todas as soluções pensadas e passa-las para uma ide, para poder
+testa-las para poder obter a resposta correta ao que esta sendo pedindo
+6º Testar o código e trasncrever pra linguagem de programação desejada
+7º Refatora: tentar reescrever o código de uma maneira mais claro, organizada e objetiva.
+Fazer um redução nele e deixa-lo mais bonito.
+*/
