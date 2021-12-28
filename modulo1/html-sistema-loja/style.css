@@ -1,0 +1,86 @@
+div{
+    background-color:transparent;
+    text-align: center;
+}
+
+
+
+i
+
+
+
+
+.slogan{
+    text-align:center
+}
+
+footer{
+    text-align: center;
+}
+.redes-sociais{
+    float:center;
+    margin-top: 680px;
+}
+
+body{
+
+    background-image:url(/img/1212.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+    
+    
+    
+}
+
+button{
+    font-style:normal;
+    border: unset;
+    font-size: 15px;
+}
+
+.logo-kali{
+    opacity: 85%;
+    position: relative;
+    top:100px;
+    
+}
+
+.div-h3{
+    opacity: 85%;
+    position: relative;
+    top: 430px;
+    font-weight: bolder;
+    font-size: 140%;
+
+    
+}
+
+.boas-vindas{
+    position: relative;
+    top: 75px;
+    font: size 20px; opacity: 80%;
+    
+}
+
+.button-estoque{
+    font-style:normal;
+    border: unset;
+    font-size: 15px;
+    position: center;
+    
+
+}
+
+.background-funcionarios{
+
+    background-image: url(/img/arte-kali.png);
+    
+}
+
+
+
+
+
+
+
