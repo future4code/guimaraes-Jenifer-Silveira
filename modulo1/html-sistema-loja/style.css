@@ -72,10 +72,14 @@ button{
 
 }
 
-.background-funcionarios{
+.background-site{
 
     background-image: url(/img/arte-kali.png);
     
+}
+
+.button-funcionarios{
+    position: center;
 }
 
 
