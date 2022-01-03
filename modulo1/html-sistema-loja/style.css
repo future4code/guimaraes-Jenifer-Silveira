@@ -1,0 +1,150 @@
+div {
+    background-color: transparent;
+    text-align: center;
+}
+
+
+/* .slogan{
+    text-align:center
+} */
+
+
+/* .redes-sociais{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    
+} */
+
+
+
+button {
+    font-style: normal;
+    border: unset;
+    font-size: 15px;
+}
+
+/* .logo-kali{
+    opacity: 85%;
+    position: relative;
+    top:100px;
+    
+} */
+
+.div-h3 {
+    opacity: 85%;
+    position: relative;
+    top: 430px;
+    font-weight: bolder;
+    font-size: 140%;
+
+
+}
+
+/* .boas-vindas{
+    position: relative;
+    top: 75px;
+    font: size 20px; opacity: 80%;
+     
+}*/
+
+.button-estoque {
+    font-style: normal;
+    border: unset;
+    font-size: 15px;
+    position: center;
+
+
+}
+
+.background-site {
+    background-image: url(/img/arte-kali.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+
+}
+
+
+
+.pagina-inicial{
+    background-image: url(/img/1212.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+
+
+
+}
+
+
+
+/* .dimensao-produtos{
+    width: 200px;
+    position: relative;
+    left: 150px;
+    
+    
+}
+
+table{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    
+}
+
+.valores{
+    text-align:center;
+    position:relative;
+    top: 0px;
+}
+
+.nova-imagem{
+    width: 100px;
+    position: relative;
+    left: 80px;
+    border-image-width: 1px;
+}
+
+.valores-dois{
+    text-align:center;
+    position:relative;
+    bottom: 70px; 
+} */
+
+/* .buque{
+    width: 150px;
+}
+
+.ametista{
+    width: 150px;
+} */
+
+.menu {
+    position: relative;
+    right: 750px;
+    top: 10px;
+}
+
+.icones-redes-sociais {
+    position: relative;
+    left: 900px;
+    top: -100px;
+    width: 30px;
+}
+
+#icones {
+    position: relative;
+    left: 900px;
+    bottom: 18px;
+    width: 30px;
+}
+
+.fotos-produtos {
+    width: 250px;
+    height: 250px;
+    
+}
