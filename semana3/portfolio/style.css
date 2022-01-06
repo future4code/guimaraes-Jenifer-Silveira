@@ -48,7 +48,7 @@
     position: relative;
     bottom: -45px;
     left: 700px;
-    text-align:justify;
+    
 }
 
 .btn1{
@@ -80,14 +80,14 @@ button:active{
 
 .bot-menu{
     border:none;  
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #000f3e00;
     position: relative;
     right: -15px;
     top: 10px;
     font-size: 20px;
-    /* letter-spacing: 0px; */
-    word-spacing: 100px;
-    color: white;;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
 }
 
 .icones-redes-sociais {
@@ -95,7 +95,7 @@ button:active{
     left: 1800px;
     top: -10px;
     width: 30px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .conteudo-texto{
     line-height: 10px;
@@ -111,11 +111,11 @@ button:active{
 .conteudo-texto button{
     width: 130px;
     height: 42px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: 14px;
-    outline: none;
+    /* outline: none; */
     
     margin: 0px 10px;
 }
@@ -137,4 +137,62 @@ body{
     background-image: url(/rm378-06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*estilo formulario*/
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 150px;;
+    max-width: 500px;
+    position: relative;
+    left: 37%;
+}
+
+input{
+    box-shadow: 7px 7px 7px black;
+    position: relative;
+    left: 2%;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+    padding: 10px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* -webkit-border-radius: 5px; */
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 7px 7px 7px black;
+    position: relative;
+    left: 1%;
+}
+
+form label{
+    color:white;
+    font-size: medium;
+    margin-left:  20px;
+    font-weight: bold;
+}
+
+h2{
+    margin-bottom: 5px;
+    margin-left: 20px;
+    color:white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.enviar :active{
+    transform: scale(3.3);
+}
+
+.enviar{
+    box-shadow: 5px 5px 5px black;
+    position: relative;
+    right: 25%;
+    top: 10%;
 }
