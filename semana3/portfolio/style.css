@@ -131,13 +131,13 @@ body {
 /*Estilo da imgaem de fundo*/
 
 .minha-foto {
-    height: 600px;
+    height: 700px;
     position: absolute;
-    bottom: 22%;
-    left: 5%;
+    bottom: 25%;
+    left: 15%;
     /* transform: translateX(-70%); */
-    border-radius: 50%;
-    box-shadow: 10px 10px  10px 5px black;
+    border-radius:30%;
+    /* box-shadow: 10px 10px  10px 5px black; */
     
 }
 
