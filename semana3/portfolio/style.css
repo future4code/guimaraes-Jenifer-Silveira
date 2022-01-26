@@ -74,6 +74,15 @@ button:active {
 /*Estilo da imgaem de fundo*/
 
 .minha-foto {
+    height: 700px;
+    position: absolute;
+    bottom: 25%;
+    left: 15%;
+    /* transform: translateX(-70%); */
+    border-radius:30%;
+    /* box-shadow: 10px 10px  10px 5px black; */
+    
+
     height: 500px;
     position: absolute;
     bottom: 25%;
