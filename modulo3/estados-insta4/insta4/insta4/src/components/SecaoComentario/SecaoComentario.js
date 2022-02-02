@@ -1,6 +1,4 @@
-import React, {
-	Component
-} from 'react'
+import React, {Component} from 'react'
 import styled from 'styled-components'
 
 const CommentContainer = styled.div `
@@ -30,12 +28,12 @@ export class SecaoComentario extends Component {
 
 	render() {
 		return <div className = {
-				'CommentContainer'
+				CommentContainer
 			} >
 			<
 			input
 		className = {
-			'InputComentario'
+			InputComentario
 		}
 		placeholder = {
 			'Comentário'

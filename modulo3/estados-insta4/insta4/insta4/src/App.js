@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import Post from './components/Post/Post';
 import foto1 from '../src/img/mae.jpeg';
 import foto2 from '../src/img/maeepai.jpeg';
