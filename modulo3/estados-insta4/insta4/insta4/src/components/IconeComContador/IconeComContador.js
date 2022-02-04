@@ -30,10 +30,6 @@ class IconeComContador extends React.Component{
 	render(){
 		let iconeCurtida
 
-		if(this.state.curtido){
-			iconeCurtida = iconeCoracaoPreto
-		} else{
-			iconeCurtida = iconeCoracaoBranco
-		}
+		
 	}
 	
