@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin:0;
+    
+}
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;;
+    background-color: purple;
+    border-bottom:solid 2px rgba(2, 2, 2, 0.986);
+    padding: 20px;
+    box-shadow: 2px 5px 5px;
+}
+
+header .logoPlay{
+    width:5%;
+    
+}
+
+header .busca{
+    width:90%;
+}
+
+header .busca input{
+    height: 45px;
+    width: 90%;
+    font-size: 22px;
+    
+}
+

@@ -1,0 +1,32 @@
+.container{
+    padding-top: 20px;
+    padding-bottom:10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .lista-videos{
+    background-color: red;
+    width: 10%;
+    padding:10px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.container .lista-videos .item{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+}
+

@@ -1,8 +1,0 @@
-.App-header{
-    display: grid;
-    grid-template-rows:  1fr ;
-    justify-items: center;
-    padding: 10px 10px 10px 10px;
-    margin: 10px;
-    width: 50%;
-}
