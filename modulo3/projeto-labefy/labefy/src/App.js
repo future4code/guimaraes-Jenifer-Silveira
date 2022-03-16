@@ -1,8 +1,8 @@
 import  React from 'react';
-import ReactPlayer from 'react-player';
-import './components/videoPlayer.js/videoPlayer.css';
-
-
+//import ReactPlayer from 'react-player';
+import Play from './assets/playButton.png'
+import "../src/App.css"
+import VideoPlayer from "./components/VideoPlayer/VideoPlayer"
 
 
 function App() {
@@ -10,22 +10,19 @@ function App() {
     <div className="App">
       
       <header className="App-header">
-      <ReactPlayer url="https://www.youtube.com/watch?v=vAEwLvxHVVk" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=SDTZ7iX4vTQ" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=pXRviuL6vMY" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=iArXv64tCJA" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=dqUdI4AIDF0" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=8M143iRrbgw" controls={true}/>
-      <input type="text" placeholder='player'/>
-      <ReactPlayer url="https://www.youtube.com/watch?v=TDyiREoBw0o" controls={true}/>
-      <input type="text" placeholder='player'/>
+      <img className='logoPlay' src={Play} alt="play" title="Logo tocador" width={70}/>
+      <div className='busca'>
+        <input type="text" placeholder="buscar"/>
+      </div>
       </header>
-    </div>
+
+      <VideoPlayer/>
+      
+      
+      
+      
+      </div>
+    
   ); 
 }
 
