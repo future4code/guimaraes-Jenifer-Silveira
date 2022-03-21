@@ -1,0 +1,62 @@
+#root {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    /* background: linear-gradient(#fff, #999); */
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+#root>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Damion', cursive;
+    color: #fff;
+    text-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.30);
+}
+
+h2 {
+    color: #fff;
+}
+
+
+@keyframes popup {
+    0% {
+        transform: scale(1, 1)
+    }
+
+    10% {
+        transform: scale(1.1, 1.1)
+    }
+
+    30% {
+        transform: scale(.9, .9)
+    }
+
+    50% {
+        transform: scale(1, 1)
+    }
+
+    57% {
+        transform: scale(1, 1)
+    }
+
+    64% {
+        transform: scale(1, 1)
+    }
+
+    100% {
+        transform: scale(1, 1)
+    }
+}
