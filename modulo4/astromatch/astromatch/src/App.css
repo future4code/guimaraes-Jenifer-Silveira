@@ -1,3 +1,10 @@
+.teste{
+  display: flex;
+  flex-direction: column;
+  padding:250px;
+  padding-bottom: 200px;
+
+}
 
 
 

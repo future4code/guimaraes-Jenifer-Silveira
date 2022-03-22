@@ -13,7 +13,7 @@ function Header() {
         <img className= "header-logo" 
         src="https://br.tinderpressroom.com/image/flame-gradient-RGB_tn1100-category.png"alt="Logo tinder"/>
         <IconeBotao>
-        <ForumIcon className="header-icon" fontSize="large"/>
+        <ForumIcon className="header-icone" fontSize="large"/>
         </IconeBotao>
         </div>
 

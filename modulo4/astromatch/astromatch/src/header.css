@@ -1,16 +1,20 @@
 .header{
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid red;
+    border-bottom: 2px solid rgb(189, 44, 44);
     align-items: center;
 }
 
 .header-logo{
-    height: 22px;
+    height: 40px;
     object-fit:contain;
+    padding-right: 10px;
     
 }
 
 .header-icone{
     padding: 20px;
+    height:30px;
+    width: 200px;
 }
+
