@@ -2,10 +2,9 @@ import React from 'react';
 import './App.css';
 import Footer from './footer';
 import Header from './Header';
-import TinderCards from './TinderCards';
-import "./App.css"
-;
+import AstroCards from './AstroCards';
 
+;
 
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
       <div className='teste'>
 
       </div>
-      <TinderCards/>
+      <AstroCards/>
       <Footer/>  
 
       

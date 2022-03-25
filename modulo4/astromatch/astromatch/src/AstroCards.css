@@ -16,6 +16,46 @@
     align-items: center;
 }
 
+.swipe {
+    position: absolute;
+}
+
+
+.Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Imagem{
+    display: flex;
+    position: relative;
+    top:55px;
+    justify-content: center;
+    margin-bottom: 550px;
+    padding-right:200px;
+    width: 200px;
+    height: 430px;
+    background-size:  cover;
+    border-radius:10%;
+    box-shadow:1px 2px 20px ;
+}
+
+.info-card{
+    color:black;
+    position: absolute;
+    
+    padding: 5px;
+    align-content:space-around;
+    bottom:30px;
+    left:20px;
+    font-size: 25px;
+    font-weight: "bold";
+}
+
+
+
 @keyframes popup {
     0% {
         transform: scale(1, 1)
