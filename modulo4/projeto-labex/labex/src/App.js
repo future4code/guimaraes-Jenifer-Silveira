@@ -1,28 +1,16 @@
+import React from 'react';
+//import './App.css';
+import Router from './Router';
 
-import AdminHomePage from './AdminHomePage';
-import './App.css';
-import ApplicationFormPage from './ApplicationFormPage';
-import CreateTripPage from './CreateTripPage';
-import HomePage from './HomePage';
-import ListTripsPage from './ListTripsPage';
-import LoginPage from './LoginPage';
-import TripDetailsPage from './TripDetailsPage';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <HomePage/>
-        <ListTripsPage/>
-        <ApplicationFormPage/>
-        <LoginPage/>
-        <AdminHomePage/>
-        <TripDetailsPage/>
-        <CreateTripPage/>
-        
-      </header>
+    <div>
+      teste
+      <Router/>
+      
     </div>
   );
 }
 
-export default App;
+

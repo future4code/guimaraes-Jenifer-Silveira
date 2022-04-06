@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function LoginPage() {
+export default function ErrorPage() {
     return(
         <div>
-            Página de login
+            Deu Ruim - Tenta de novo
         </div>
     )
 }
