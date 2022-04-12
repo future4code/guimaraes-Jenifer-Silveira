@@ -1,0 +1,72 @@
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* celulares */
+    }
+    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    }
+    @media screen and (min-device-width : 1200px) {
+    /* computadores */
+    }
+
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding:0 2 rem;
+}
+
+
+#login .form{
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+}
+
+#login .field{
+    padding-bottom: 0.5rem;
+}
+
+#login .field label {
+    display:block;
+}
+
+#login .field input{
+    width:100%;
+}
+
+#login .actions{
+    text-align:center;
+    margin-top: .5rem;
+}
+
+.homePage{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    min-height: 95vh;
+
+}
+
+.buttonHomePage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    bottom: 100px;
+    position: relative;
+    bottom:200px;
+}
+
