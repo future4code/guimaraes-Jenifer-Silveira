@@ -4,12 +4,14 @@ import CharacterDetailPage from '../CharacterDetailPage/CharacterDetailPage';
 import CharacterListPage from '../CharacterListPage/CharacterListPage';
 
 
+
 export default function Router (){
     return(
         <BrowserRouter>
+        
         <Routes>
-            <Route index element={<CharacterDetailPage/>}/>
-            <Route path = {"/lista-personagens"} element={<CharacterListPage/>}/>
+            <Route index element={<CharacterListPage/>}/>
+            <Route path = {"/lista-personagens"} element={<CharacterDetailPage/>}/>
         </Routes>
         </BrowserRouter>
     )
