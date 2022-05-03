@@ -1,15 +1,27 @@
 import React from 'react'
-import ButtonAppBar from '../components/Header/ButtonAppBar'
-import {useNavigate} from "react-router-dom"
+
+//import {useNavigate} from "react-router-dom"
+import useRequestData from '../hooks/useRequestData'
+import { BASE_URL } from '../constants/urls'
+
 
 
 const CharacterListPage = () => {
-  const navigator = useNavigate()
+  const getCharacterList = useRequestData( [] ,`${BASE_URL}/people`)
+  console.log(getCharacterList)
+  
+  const characterList =  getCharacterList.results && getCharacterList.results.map((people) => 
+  
+  
+  <button>{people.name}</button>
+
+)
+  
   return (
     <div>
 
-    <ButtonAppBar onClick={() => navigator("/lista-personagens") }/>
-    <h1>teste</h1>
+        
+    {characterList}
     
     
     </div>

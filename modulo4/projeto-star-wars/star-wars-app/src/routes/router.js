@@ -5,7 +5,9 @@ import CharacterListPage from '../CharacterListPage/CharacterListPage';
 
 
 
+
 export default function Router (){
+    
     return(
         <BrowserRouter>
         
