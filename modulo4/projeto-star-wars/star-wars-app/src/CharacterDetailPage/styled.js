@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const CharacterCard = styled.div`
+export const CharacterCard = styled.button`
     display: flex;
     flex-direction: column;
     alignt-items: center;

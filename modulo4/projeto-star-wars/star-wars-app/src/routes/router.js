@@ -13,7 +13,7 @@ export default function Router (){
         
         <Routes>
             <Route index element={<CharacterListPage/>}/>
-            <Route path = {"/detalhes-personagens"} element={<CharacterDetailPage/>}/>
+            <Route path = {"/detalhes/:i"} element={<CharacterDetailPage/>}/>
         </Routes>
         </BrowserRouter>
     )
