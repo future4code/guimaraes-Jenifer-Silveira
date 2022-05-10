@@ -1,6 +1,6 @@
 import { useEffect , useState } from "react";
 import axios from "axios";
-//import { BASE_URL } from "../constants/urls";
+
 
 
 const useRequestData = (initialData, url) => {
@@ -21,6 +21,10 @@ const useRequestData = (initialData, url) => {
             alert('Ocorreu um erro, tente novamente')
         })
     }, [url])
+
+    
+    
+
     return (data)
 }
 

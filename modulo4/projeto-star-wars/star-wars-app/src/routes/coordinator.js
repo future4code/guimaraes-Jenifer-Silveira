@@ -1,7 +1,8 @@
-export const goToDetails = (history) => {
+export const goToList = (history) => {
     history.push("/")
 }
 
-export const goToList = (history) => {
-    history.push("/lista-personagens")
+export const goToDetails = (history, id) => {
+    history.push(`/detalhes-personagens/${id}`)
 }
+
