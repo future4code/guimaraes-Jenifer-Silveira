@@ -1,17 +1,6 @@
 import styled from "styled-components"
 
-export const Responsividade = styled.div`
-    
-    @media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    }
 
-    @media screen and (min-device-width : 481px) and (max-device-width : 800px) {
-    }
-
-    @media screen and (min-device-width : 1200px) {
-    }
-
-`
 
 
 export const CharacterCard = styled.div`
@@ -40,12 +29,12 @@ export const Title = styled.h2`
 `
 
 export const LogoImage = styled.img`
-    margin-top:30px;
-    margin-bottom:30px;
+    margin-top:10vh;
+    margin-bottom:05vh;
     position: relative;
-    left:460px;
+    left:83vh;
     width: 20vw;
-    max-width: 350px;
+    max-width: 500vh;
 
     
 `

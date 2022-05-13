@@ -9,7 +9,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import { goToDetails } from '../routes/coordinator';
 import { useNavigate } from 'react-router-dom';
-import { CharacterCard, LogoImage, Responsividade, CharacterNameArea } from './styled';
+import { CharacterCard, LogoImage,  CharacterNameArea } from './styled';
 import Logo from "../assets/sw-sem-bg.png"
 
 
@@ -40,7 +40,7 @@ const CharacterListPage = () => {
       
       <Card  sx={{ maxWidth: 150, maxHeight:255 }}key={i} onClick={() => goToDetails(navigate, i+1)} >
       <CardActionArea >
-        
+
         <CardMedia>
         
           <img src={`https://starwars-visualguide.com/assets/img/characters/${i+1}.jpg`} alt={`${i+1}`} width="150px" />
@@ -63,13 +63,13 @@ const CharacterListPage = () => {
   })
 
   return (
-    <Responsividade>
+    <div>
     <LogoImage src={Logo}/>
 
     <CharacterCard>
     {listCharacter}
     </CharacterCard>
-    </Responsividade>
+    </div>
   )
   
 
