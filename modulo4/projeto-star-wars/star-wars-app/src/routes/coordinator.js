@@ -1,5 +1,5 @@
-export const goToList = (navigate, i) => {
-    navigate(`/${i}`)
+export const goToList = (navigate) => {
+    navigate(`/`)
 }
 
 export const goToDetails = (navigate, i) => {
