@@ -1,0 +1,12 @@
+{
+  "name": "package-json",
+  "version": "1.0.0",
+  "description": "Exercicio Node e Package Json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["aula" , "Node"],
+  "author": "Jenifer",
+  "license": "ISC"
+}
