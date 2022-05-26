@@ -4,7 +4,7 @@
   "description": "Exercicio Node e Package Json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "clear && node index.js"
   },
   "keywords": ["aula" , "Node"],
   "author": "Jenifer",
