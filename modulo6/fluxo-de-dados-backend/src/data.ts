@@ -1,17 +1,23 @@
-export const produtos = [
+export type Product = {
+    id: string,
+    name: string,
+    price: number
+}
+
+export const products: Product[] = [
     {
         id: "1",
         name: "Café",
-        price: Number("8,00") 
+        price: 8,
     },
     {
         id: "2",
         name: "Açucar",
-        price: Number("4,00") 
+        price: 4,
     },
     {
         id: "3",
         name: "Leite",
-        price: Number("5,00") 
+        price: 5
     },
 ]
