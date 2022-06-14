@@ -1,3 +1,11 @@
+
+let birth = prompt("Qual sua data de nscimento")
+let currentDate = new Date() 
+let currentYear = currentDate.getFullYear()
+let age = Number(currentYear - birth)
+
+console.log(age)
+
 //Exercicios de interpretação de código
 
 /* Resposta exercicio 1:
@@ -38,7 +46,7 @@ console.log(`Você é maior de idade? ${maiorIdade}!`)
 console.log(`Você tem cabelo comprido?${cabeloComprido}!`)*/
 
 // console.log("voce está de roupa azul?", roupaAzul);
-
+/*
 
 let a=10
 let b=25

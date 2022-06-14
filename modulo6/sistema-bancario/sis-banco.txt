@@ -1,0 +1,6 @@
+Informações a serem colocadas:
+
+
+- Para criar conta usuario deve inserir: Nome, CPF, data de nascimento.
+- Para a conta o usuario deve ter 18 anos ou mais e a conta inicia com o valor zerado. 
+- O array de extrato deve conta valor, data e uma descrição.
