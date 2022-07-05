@@ -20,8 +20,6 @@ app.get("/", (req: Request, res: Response) => {
     res.send("Hello world")
 })
 
-app.get("/test", (req: Request, res: Response) => {
-    res.status(200).send("ok");
-    });
+
 
 export default app
