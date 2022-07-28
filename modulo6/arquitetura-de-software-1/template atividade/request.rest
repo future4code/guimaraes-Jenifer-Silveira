@@ -1,0 +1,42 @@
+POST http://localhost:3003/createUser
+Content-Type: application/json
+
+{ 
+    "name": "Jenifer Kindermann ",
+    "email": "jenifer@email.com.br",
+    "password":"14523658"
+}
+
+###
+
+POST http://localhost:3003/createUser
+Content-Type: application/json
+
+{ 
+    "name": "Akin Kindermann ",
+    "email": "akin@email.com.br",
+    "password":"fagrghsrtsg"
+}
+
+###
+POST http://localhost:3003/createUser
+Content-Type: application/json
+
+{ 
+    "name": "Elisabeth Kindermann ",
+    "email": "elisabeth@email.com.br",
+    "password":"ieuq8492684"
+}
+
+###
+
+POST http://localhost:3003/createUser
+Content-Type: application/json
+
+{ 
+    "name": "Daiane Lara Nora ",
+    "email": "daiane@email.com.br",
+    "password":"efejfjeie52"
+}
+
+###
