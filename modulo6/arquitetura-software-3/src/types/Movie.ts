@@ -39,5 +39,11 @@ export class Movie{
         this.title = newDescription
     }
 
-    
+    setDuration_in_minutes( newDuration_in_minutes: string){
+        this.title = newDuration_in_minutes
+    }
+
+    setYear_of_release( newYear_of_release: string) {
+        this.year_of_release = newYear_of_release
+    }
 }
