@@ -13,9 +13,9 @@ POST http://localhost:3003/user/create/
 Content-Type: application/json
 
 {
-    "name": "Akin Kindermann",
-    "email": "akin@email.com.br",
-    "password": "iwueuhwosdkjhiu"
+    "name": "luiza sonza",
+    "email": "luiza@email.com.br",
+    "password": "whiderson"
 }
 
 ######
@@ -24,9 +24,9 @@ POST http://localhost:3003/post/create/
 Content-Type: application/json
 
 {
-    "photo": "Foto 2",
-    "description": "foto na praia",
+    "photo": "Foto 4",
+    "description": "foto no show",
     "type": "event",
-    "authorId": "0989c5b8-df60-4b4a-9591-1e9b35c53005"
+    "authorId": "41078657-935e-4139-9c76-2336c4d10df1"
     
 }
