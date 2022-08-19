@@ -1,0 +1,19 @@
+POST http://localhost:3003/user/create
+Content-Type: application/json
+
+{
+    "name": "Dolly Parton",
+    "email": "Dolly@email.com",
+    "password": "jolene"
+}
+
+###
+POST http://localhost:3003/movie/create-movie
+Content-Type:  application/json
+
+{
+    "title":"Pânico",
+    "description":"Um grupo de jovens enfrenta um assassino mascarado que testa seus conhecimentos sobre filmes de terror. A pequena cidade de Woodsboro nunca mais será a mesma.",
+    "duration_in_minutes": "100",
+    "year_of_release": "1996"
+}
