@@ -69,7 +69,9 @@ export class UserBusiness {
                 throw new UserNotFound()
             }
 
-            if(user.password !== password){
+            const hashCompare = await hashManager.compareHash(password, user.password)
+
+            if(!hashCompare){
                 throw new InvalidPassword()
             }
 
