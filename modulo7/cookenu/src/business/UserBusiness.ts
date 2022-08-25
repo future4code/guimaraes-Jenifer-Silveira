@@ -2,10 +2,12 @@ import { UserDatabase } from "../data/UserDatabase";
 import { CustomError, InvalidEmail, InvalidPassword, UserNotFound } from "../error/customError";
 import { UserInputDTO, user, LoginInputDTO } from "../model/user";
 import { Authenticator } from "../services/Authenticator";
+import { HashManager } from "../services/HashManager";
 import IdGenerator from "../services/IdGenerator";
 
 
 const authenticator = new Authenticator()
+const hashManager = new HashManager()
 
 export class UserBusiness {
     public signUp = async (input: UserInputDTO): Promise<string> => {
@@ -26,11 +28,13 @@ export class UserBusiness {
 
             const id: string = IdGenerator.generateId()
 
+            const hashPassword = await hashManager.generateHash(password)
+
             const user: user = {
                 id,
                 name,
                 email,
-                password
+                password: hashPassword
             };
             const userDatabase = new UserDatabase();
             await userDatabase.insertUser(user);

@@ -29,4 +29,13 @@ export class UserDatabase extends BaseDatabase {
             throw new CustomError(400, error.sqlMessage)
         }
     }
+
+    public findUserByToken = async(token: string): Promise<user> => {
+        try {
+            const result = await UserDatabase.connection("Cookenu-users").select().where({token})
+            return result[0]
+        } catch (error: any) {
+            throw new CustomError(400, error.sqlMessage)
+        }
+    }
 }

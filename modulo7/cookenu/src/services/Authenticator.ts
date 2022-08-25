@@ -1,6 +1,6 @@
 import * as jwt from "jsonwebtoken"
 import {AuthenticationData} from "../model/types"
-
+import {UserNotFound} from "../error/customError"
 
 
 
@@ -15,12 +15,18 @@ export class Authenticator{
         return token
     };
 
-    generateTokenData = (token: string): AuthenticationData => {
-        const payload = jwt.verify(
-            token, 
-            process.env.JWT_KEY as string
-            ) as AuthenticationData;
-        return payload
+    GetTokenData = (token: string): AuthenticationData => {
+        try {
+            const payload = jwt.verify(
+                token, 
+                process.env.JWT_KEY as string
+                ) as AuthenticationData;
+            return payload
+            
+        } catch (error: any) {
+            throw new UserNotFound()
+            
+        }
     }
 
 }

@@ -1,7 +1,8 @@
 
-import { LoginInputDTO,  UserInputDTO } from "../model/user";
+import { LoginInputDTO,  UserInputDTO, UserProfileDTO } from "../model/user";
 import { Request, Response } from "express";
 import { UserBusiness } from "../business/UserBusiness";
+import { CustomError, UserNotFound} from "../error/customError"
 
 
 export class UserController {
@@ -47,4 +48,14 @@ export class UserController {
             
         }
     }
+
+    /*public profile = async (req: Request,res: Response) => {
+        try {
+            
+            
+        } catch (error:any) {
+            res.status(400).send(UserNotFound)
+            
+        }
+    }*/
 }
