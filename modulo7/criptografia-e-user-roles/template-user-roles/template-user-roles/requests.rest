@@ -1,0 +1,33 @@
+
+
+POST http://localhost:3003/user/signup
+Content-Type: application/json
+
+{
+   "name": "Akin Kindermann", 
+   "nickname": "kin", 
+   "email": "kin@email.com" ,
+   "password": "ninalinda",
+   "role": "NORMAL"
+}
+
+###
+
+POST http://localhost:3003/user/login
+Content-Type: application/json
+
+{
+   "email": "kin@email.com",
+   "password": "ninalinda"
+}
+
+###
+
+PUT http://localhost:3003/user/profile/c879cc37-4e04-4518-9eee-841dcc18be24
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImM4NzljYzM3LTRlMDQtNDUxOC05ZWVlLTg0MWRjYzE4YmUyNCIsInJvbGUiOiJOT1JNQUwiLCJpYXQiOjE2NjEyODg2MzYsImV4cCI6MTY2MTM3NTAzNn0.WTUgvSnKIfXw65bAEOQMFB14Tp2PeQNVD9TXZA79krM
+
+{
+   "name": "Akin Kindermann",
+   "nickname": "kin"
+}
