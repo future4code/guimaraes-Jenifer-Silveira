@@ -1,10 +1,16 @@
-import './App.css';
-import FrontCard from './components/FrontCard';
+// import './App.css';
+import Cards from './components/Cards';
+// import FrontCard from './components/FrontCard';
+
 function App() {
   return (
-    <div className="App">
+    <div >
 
-      <FrontCard/>
+      {/* <FrontCard/> */}
+      <Cards/>
+      
+      
+      
     </div>
   );
 }
