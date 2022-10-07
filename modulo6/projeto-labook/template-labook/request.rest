@@ -1,0 +1,32 @@
+POST http://localhost:3003/user/create/
+Content-Type: application/json
+
+{
+    "name": "Jenifer Kindermann",
+    "email": "jenifer@email.com.br",
+    "password": "shdiauhiufoeijpw"
+}
+
+######
+
+POST http://localhost:3003/user/create/
+Content-Type: application/json
+
+{
+    "name": "luiza sonza",
+    "email": "luiza@email.com.br",
+    "password": "whiderson"
+}
+
+######
+
+POST http://localhost:3003/post/create/
+Content-Type: application/json
+
+{
+    "photo": "Foto 4",
+    "description": "foto no show",
+    "type": "event",
+    "authorId": "41078657-935e-4139-9c76-2336c4d10df1"
+    
+}
