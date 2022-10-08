@@ -1,6 +1,6 @@
 import './App.css';
-import FrontCard from './components/FrontCard/FrontCard';
-// import BackCard from "./components/BackCard/"
+import Cards from './Cards';
+
 
 
 
@@ -8,9 +8,8 @@ function App() {
   return (
     <div className='App'>
 
-      <FrontCard/>
-      {/* <BackCard/> */}
-      
+
+      <Cards/>
       
       
       
