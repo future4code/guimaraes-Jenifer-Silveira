@@ -8,6 +8,7 @@
     margin-left: 36px;
 }
 
+
 .flip-card-inner {
     position: relative;
     width: 50%;
@@ -30,6 +31,11 @@
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border-radius: 8%;
+}
+
+p{
+    text-align: center;
+    size: 100px;
 }
 
 .flip-card-front {

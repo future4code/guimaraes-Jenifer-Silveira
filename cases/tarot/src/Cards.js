@@ -1,11 +1,11 @@
 import axios from 'axios'
 import React from 'react'
 import { useState } from 'react'
-
 import { useEffect } from 'react'
 
 
-const FrontCard = () => {
+
+const TarotCard = () => {
     const url = "https://rws-cards-api.herokuapp.com/api/v1/"
 
     const[getCards, setGetCards] = useState([])
@@ -21,11 +21,14 @@ const FrontCard = () => {
     getAllCards();
     }, [])
     console.log(getCards)
+    
 
     const cardsList = getCards.map((t) => {
     return (
     <div>
-        
+        <div>
+            
+        </div>
         <div className="flip-card">
     <div className="flip-card-inner">
         <div className="flip-card-front">
@@ -34,11 +37,13 @@ const FrontCard = () => {
         </div>
         <div className="flip-card-back">
         
+
+
         <p key={t.name}>{t.name}</p>
         
     </div>
     </div>
-</div>
+    </div>
     </div>
     
     )
@@ -48,4 +53,4 @@ const FrontCard = () => {
     )
 }
 
-export default FrontCard
+export default TarotCard
